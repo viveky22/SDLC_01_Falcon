@@ -33,14 +33,14 @@ Basic requirements that are very essential are
 |ID|DESCRIPTION|CATEGORY|STATUS|
 |:-----|:--------------------------------|:----------------|:----------|
 |HR01|User shall be able to provide colors present in the rubik’s cube.|Technical|                       |
-|HR02|User shall be able to solve a Rubik’scube from any starting condition.|Technical|                  |
+|HR02|User shall be able to solve a Rubik’s cube from any starting condition.|Technical|                  |
 |HR03|User shall be able to see 3D view of the cube while solving.|Technical|            |
-|HR04|User should be able to solve it in minimum number of steps.|TECHNICAL|FUTURE|
+|HR04|User should be able to solve it in minimum number of steps.|Technical|Future|
 
 ## LOW LEVEL REQUIREMENT
 
 |ID|DESCRIPTION|STATUS|
 |:-------|:-------|:-------|
-|LR01|If user provides an invalid color,"INVALID COLOR" message should displayed|Future|
+|LR01|If user provides an invalid color, "INVALID COLOR" message should be displayed.|Future|
 
 
