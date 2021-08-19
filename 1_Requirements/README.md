@@ -28,4 +28,19 @@ Basic requirements that are very essential are
 * gcc compiler with a good system.
 * Any of the two linux/windows.
 
+## HIGH LEVEL REQUIREMENT
+
+|ID|DESCRIPTION|CATEGORY|STATUS|
+|:-----|:--------------------------------|:----------------|:----------|
+|HR01|User shall be able to provide colors present in the rubik’s cube.|Technical|                       |
+|HR02|User shall be able to solve a Rubik’scube from any starting condition.|Technical|                  |
+|HR03|User shall be able to see 3D view of the cube while solving.|Technical|            |
+|HR04|User should be able to solve it in minimum number of steps.|TECHNICAL|FUTURE|
+
+## LOW LEVEL REQUIREMENT
+
+|ID|DESCRIPTION|STATUS|
+|:-------|:-------|:-------|
+|LR01|If user provides an invalid color,"INVALID COLOR" message should displayed|Future|
+
 
