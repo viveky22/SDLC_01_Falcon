@@ -28,7 +28,7 @@ Basic requirements that are very essential are
 * gcc compiler with a good system.
 * Any of the two linux/windows.
 
-## HIGH LEVEL REQUIREMENT
+## HIGH LEVEL REQUIREMENTS:
 
 |ID|DESCRIPTION|CATEGORY|STATUS|
 |:-----|:--------------------------------|:----------------|:----------|
@@ -37,7 +37,7 @@ Basic requirements that are very essential are
 |HR03|User shall be able to see 3D view of the cube while solving.|Technical|            |
 |HR04|User should be able to solve it in minimum number of steps.|Technical|Future|
 
-## LOW LEVEL REQUIREMENT
+## LOW LEVEL REQUIREMENTS:
 
 |ID|DESCRIPTION|STATUS|
 |:-------|:-------|:-------|
