@@ -4,7 +4,7 @@ L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 # Rubik's Cube Solver
 ![image](https://user-images.githubusercontent.com/65846052/130062337-a520132d-b01b-4328-a85b-b0d02f9085d2.png)
 
-# Abstract
+## Abstract
 * In this project the user is able to provide colors present in the rubik's cube as input. 
 * Based on the color information provided by the user a small check is done, on whether the colors provided is valid or not. 
 * If all the colors provided by the user is valid then the steps to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
@@ -22,6 +22,18 @@ L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 ## Contributors List
 |PS No.|Name|
 |:-------|:------------|
+|99005677 |Nikhi Nevin Vas |
+|99005655 |Vinay B C |
+|99005642 |N Namratha Reddy |
+|99005698 |Sampanna T |
+|99005639 |Harshitha M S |
+|99005686 |Hamsa G |
+|99005675 |Shruthi Suresh |
+|99005696 |Dibyanshu Gupta |
+|99005697 |Chandippa Sai Ram |
+|99005692 |Kausikaa B |
+|99005643 |Uttam R |
+
 
 
 ## Learning Materials 
