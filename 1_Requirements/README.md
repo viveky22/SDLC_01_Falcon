@@ -15,11 +15,11 @@ The main objectives of this project are-
 ## Who
 Anyone who doesn't know how to solve the Rubik's cube can use this project.
 ## What
-This project is concerned about solving almost all the positions of Rubik's cube.
+This project is concerned about solving the Rubik's cube by using layer by layer method.
 ## When 
 Whenever there is an unsolved Rubik's cube this project helps in solving it.
 ## Why
-As this project uses beginner's algorithm it can be easy to teach beginners.
+As this project uses beginner's algorithm it can be easy to teach beginners who does not know how to solve it.
 ## How
 Implemented using structure, pointers, enum and other functionalities of C.
 
