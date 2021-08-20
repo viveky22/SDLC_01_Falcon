@@ -22,7 +22,7 @@ L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 ## Contributors List
 |PS No.|Name|
 |:-------|:------------|
-|99005677 |Nikhi Nevin Vas |
+|99005677 |Nikhil Nevin Vas |
 |99005655 |Vinay B C |
 |99005642 |N Namratha Reddy |
 |99005698 |Sampanna T |
