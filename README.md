@@ -12,7 +12,7 @@ L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 ## Folder Structure
 |Folder|Description|
 |:-----|:----------|
-|1_Requirement|Documents detailing and research|
+|1_Requirements|Documents detailing and research|
 |2_Architecture|Documents regarding design details|
 |3_Implementation|All code and documentation|
 |4_TestPlanAndOutput|Documents with test plan and procedure|
