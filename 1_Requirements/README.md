@@ -19,9 +19,9 @@ This project is concerned about solving almost all the positions of Rubik's cube
 ## When 
 Whenever there is an unsolved Rubik's cube this project helps in solving it.
 ## Why
-As this project uses begineer's algorithm it can be easy to teach begineers
+As this project uses beginner's algorithm it can be easy to teach beginners.
 ## How
-Implemented using structure, pointers, Enum and other functionalities of C.
+Implemented using structure, pointers, enum and other functionalities of C.
 
 Basic requirements that are very essential are
 * A rubik's cube application or a real rubik's cube.
