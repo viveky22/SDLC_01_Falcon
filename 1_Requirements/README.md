@@ -8,7 +8,7 @@ The main objectives of this project are:
 * To solve a rubik's cube using beginners method
 * To perform operations on rubik's cube and display the results.
 
-## SWOT 
+## SWOT ANALYSIS
 ![SWOT](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/1_Requirements/swot.jpg)
 
 ## 4 W's and 1 H
