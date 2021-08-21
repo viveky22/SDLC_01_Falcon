@@ -1,6 +1,6 @@
 /**
  * @file algorithm.h
- * @author Dibyanshu gupta (dibyanshug15@gmail.com
+ * @author Dibyanshu gupta (dibyanshug15@gmail.com)
  * @brief 
  * provides all the functions that has series of steps needed to solve rubik's cube
  * 
