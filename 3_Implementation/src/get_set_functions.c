@@ -18,7 +18,7 @@ boolean isIndexValid(int i, int j, int k, int index){
     return false;
 }
 
-//checks if the given position is valid or not
+//checks if the given Position is valid or not
 boolean isPositionValid(char* position){
     if( ((strcmp(position,FRONT)==0)?true:false) || ((strcmp(position,LEFT)==0)?true:false) || ((strcmp(position,BACK)==0)?true:false) || ((strcmp(position,RIGHT)==0)?true:false) || ((strcmp(position,UP)==0)?true:false) || ((strcmp(position,DOWN)==0)?true:false) )
     return true;
