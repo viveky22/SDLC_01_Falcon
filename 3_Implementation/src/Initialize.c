@@ -90,7 +90,7 @@ boolean isRubiksCubeValid(){
        // printf("\nvalue[%d]=%d\n",i,check[i]);
         if(check[i]!=9)return false;
     }
-    return true;
+    return true; // return if it true
 
 }
 
