@@ -1,4 +1,4 @@
 # Design 
-## High Level Diagram
-![Uml_Diagram](https://user-images.githubusercontent.com/65846052/130233276-7b4113fb-47ae-4245-be0b-e0154dc9d151.jpg)
-
+## Behavioral Diagrams
+### Activity Diagram
+![Uml_Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/activityDiagram.jpg)
