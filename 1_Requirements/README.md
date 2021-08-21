@@ -11,7 +11,7 @@ The main objectives of this project are:
 ## SWOT ANALYSIS
 ![SWOT](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/1_Requirements/swot.jpg)
 
-## ***4 W's and 1 H
+## ***4 W's and 1 H***
 ## Who
 Anyone who doesn't know how to solve the Rubik's cube can use this project.
 ## What
