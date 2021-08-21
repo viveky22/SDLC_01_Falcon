@@ -44,7 +44,7 @@ Basic requirements that are very essential are:
 ### VALIDATION
 |ID|FUNCTIONS|DESCRIPTION|STATUS|
 |:-------|:-------|:-------|:-------|
-|LR01|isNodeValid|checks whether all the Nodes entered by the user is valid or not|Technical|
+|LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|Technical|
 |LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|Technical|
 
 ### BASIC OPERATIONS
