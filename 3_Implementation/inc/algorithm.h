@@ -1,3 +1,21 @@
+/**
+ * @file algorithm.h
+ * @author Dibyanshu gupta (dibyanshug15@gmail.com
+ * @brief 
+ * provides all the functions that has series of steps needed to solve rubik's cube
+ * 
+ * @param direction 
+ * a)direction=true represents given algorithm
+ * b)direction=false represents mirror form of given algorithm 
+ * @param print 
+ * prints a move if it is true
+ * @param count 
+ * gives a no. infront of the move in the form count+subcount+)+move
+ * @return boolean
+ * 
+ * @version 3.0
+ * @date 2021-08-21
+ */
 #ifndef ALGORITHM_H
 #define ALGORITHM_H
 
