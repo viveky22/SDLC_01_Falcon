@@ -1,7 +1,7 @@
 /**
  * @file rubiks_cube.h
  * 
- * @author Vinay B C (vinayvasista6@gmail.com)
+ * @author Vinay B C (vinayvasista6@gmail.com), S Shruthi (ssj221099@gmail.com)
  * 
  * @brief 
  * 1) Responsible for the creation of rubik's cube by taking user input.
@@ -195,3 +195,154 @@ char* getDownColor(int i, int j, int k);
  * returns the left color for a given Node
  */
 char* getLeftColor(int i, int j, int k);
+
+/**
+ * @brief 
+ * returns the right color for a given Node
+ */
+char* getRightColor(int i, int j, int k);
+
+/**
+ * @brief 
+ * sets @param color at a particular index specified by @param index
+ */
+void setColor(int i, int j, int k, int index, char* color);
+
+/**
+ * @brief 
+ * sets @param color at a particular position specified by @param position
+ */
+void setColorAt(int i, int j, int k, char* position, char* color);
+
+/**
+ * @brief 
+ *  initializes the rubik's cube by setting the colors for the respective
+ *  Node based on user input.
+ */
+
+//
+
+/**
+ * @brief performs rotate operation of the front layer
+ * @param direction
+ * (a)if direction=true rotation takes place in clockwise direction
+ * (b)if direction=false rotation takes place in anti-clockwise direction
+ */
+void rotateFront(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs rotate operation of the middle layer
+ */
+void rotateMiddle(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs rotate operation of the back layer
+ */
+void rotateBack(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs horizontal operation on upper layer
+ * @param direction 
+ * (a)if direction=true, horizontal operation takes place in the right direction
+ * (b)if direction=false, horizontal operation takes place in the left direction
+ */
+void upHorizontal(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs horizontal operation on middle layer
+ */
+void middleHorizontal(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs horizontal operation on bottom layer
+ */
+void downHorizontal(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs vertical operation on left layer
+ * @param direction 
+ * (a)if direction=true, vertical operation takes place in the upward direction
+ * (b)if direction=false, vertical operation takes place in the downward direction
+ */
+void leftVertical(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs vertical operation on middle layer
+ */
+void middleVertical(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs vertical operation on right layer
+ */
+void rightVertical(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs horizontal movement on the entire body of rubik's cube
+ * @param direction 
+ * (a)if direction=true, vertical operation takes place in the right direction
+ * (b)if direction=false, vertical operation takes place in the left direction
+ */
+void circleHorizontal(boolean direction, boolean print, int count, int subcount);
+
+/**
+ * @brief performs vertical movement on the entire body of rubik's cube
+ * @param direction 
+ * (a)if direction=true, vertical operation takes place in the downward direction
+ * (b)if direction=false, vertical operation takes place in the upward direction
+ */
+void circleVertical(boolean direction, boolean print, int count, int subcount);
+
+//
+
+/**
+ * @brief checks if all the Node colors entered by user is valid or not and returns accordingly
+ * 
+ * @return boolean 
+ */
+boolean isNodeValid();
+
+/**
+ * @brief checks if all the colors of the rubik's cube are valid or not
+ * 
+ * @return boolean 
+ */
+boolean isRubiksCubeValid();
+
+/**
+ * @brief initializes the rubik's cube with user entered colors
+ * 
+ */
+void setRubixCube();
+
+/**
+ * @brief
+ *   initializes the rubik's cube by taking String (i.e. char *) values 
+ *   separated by space.(i.e. all the colors received via input initializes
+ *   the rubik's cube)
+ * @param input 
+ *   space separated colors are given as input.
+ */
+void setRubixCubeAtOnce(char input[600]);
+
+/**
+ * @brief 
+ *   returns true if the colors can be displayed and displays the colors
+ *   returns false if the colors can't be displayed and doesn't display the colors
+ * @return boolean 
+ */
+void display();
+
+/**
+ * @brief 
+ * used to display colors in space separated format which is easy for testing
+ * 
+ */
+void displayTest();
+
+/**
+ * @brief 
+ *   deallocating memory to avoid memory leaks
+ */
+void freeSpace();
+
+#endif
