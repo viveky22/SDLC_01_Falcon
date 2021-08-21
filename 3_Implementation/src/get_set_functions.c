@@ -10,7 +10,7 @@ boolean is_i_j_k_valid(int i, int j, int k){
     return false;
 }
 
-//checks if the given index is valid or not
+//checks if the given index value is valid or not
 boolean isIndexValid(int i, int j, int k, int index){
     if( (index<getSize(i,j,k)) && (index>=0) )
     return true;
