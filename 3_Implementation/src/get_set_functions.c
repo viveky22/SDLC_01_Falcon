@@ -26,14 +26,14 @@ boolean isPositionValid(char* position){
     return false;
 }
 
-//returns size for given i,j,k values
+//returns the size for given i,j and k values
 int getSize(int i, int j, int k){
     int count=0;
             switch(i){
                 case 0:count++;break;
                 case 1:break;
                 case 2:count++;break;
-                default: return -1;//as other values of i are not valid
+                default: return -1;   //as other values of i are not valid
             }
             switch(j){
                 case 0:count++;break;
