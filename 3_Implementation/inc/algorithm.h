@@ -13,7 +13,6 @@
  * gives a no. infront of the move in the form count+subcount+)+move
  * @return boolean
  * 
- * @version 3.0
  * @date 2021-08-21
  */
 #ifndef ALGORITHM_H
