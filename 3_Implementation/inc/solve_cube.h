@@ -1,7 +1,7 @@
 /**
  * @file solve_cube.h
  * @author S Shruthi (ssj221099@gmail.com)
- * @brief calls all the functions necessary to solve the rubik's cube 
+ * @brief provides all the functions that are involoved in solving the rubik's cube.
  * @version 0.1
  * @date 2021-08-21
  * 
