@@ -23,7 +23,7 @@ As this project uses beginner's algorithm it can be easy to teach beginners who 
 ## How
 Implemented using structure, pointers, enum and other functionalities of C.
 
-Basic requirements that are very essential are
+Basic requirements that are very essential are:
 * A rubik's cube application or a real rubik's cube.
 * gcc compiler with a good system.
 * Any of the two linux/windows.
