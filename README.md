@@ -9,6 +9,11 @@ L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 * Based on the color information(input) provided by the user, a small check is done on whether the colors provided is valid or invalid. 
 * If all the colors provided by the user is valid then the steps to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
 
+
+|Build    |Code Quality     |Unity   |Git Inspector|
+|:--------|:----------------|:--------|:-----------|
+|||||
+
 ## Folder Structure
 |Folder|Description|
 |:-----|:----------|
