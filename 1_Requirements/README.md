@@ -5,13 +5,13 @@ In this project the user is able to provide colors present in the rubik's cube a
 
 ## Objective 
 The main objectives of this project are: 
-* To solve a rubik's cube using beginners method
+* To solve a rubik's cube using beginners method.
 * To perform operations on rubik's cube and display the results.
 
 ## SWOT ANALYSIS
 ![SWOT](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/1_Requirements/swot.jpg)
 
-## 4 W's and 1 H
+## ***4 W's and 1 H
 ## Who
 Anyone who doesn't know how to solve the Rubik's cube can use this project.
 ## What
