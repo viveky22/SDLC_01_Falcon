@@ -442,3 +442,35 @@ void rightVertical(boolean direction, boolean print, int count, int subcount){
     }//if(print == true)
 
 }
+
+
+void circleHorizontal(boolean direction, boolean print, int count ,int subcount){
+    upHorizontal(direction,false,count,subcount);
+    middleHorizontal(direction,false,count,subcount);
+    downHorizontal(direction,false,count,subcount);
+    if(print == true){//if(print == true)
+        if(direction == true){
+            printf("%d%c]%s(%s)\n",count,subcount,__func__,"right-side");
+        }
+        else if(direction == false){
+            printf("%d%c]%s(%s)\n",count,subcount,__func__,"left-side");
+        }
+    }//if(print == true)
+
+}
+
+
+void circleVertical(boolean direction, boolean print, int count ,int subcount){
+    leftVertical(direction,false,count,subcount);
+    middleVertical(direction,false,count,subcount);
+    rightVertical(direction,false,count,subcount);
+
+    if(print == true){//if(print == true)
+        if(direction == true){
+            printf("%d%c]%s(%s)\n",count,subcount,__func__,"up-side");
+        }
+        else if(direction == false){
+            printf("%d%c]%s(%s)\n",count,subcount,__func__,"down-side");
+        }
+    }//if(print == true)
+}
