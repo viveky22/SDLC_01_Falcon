@@ -30,6 +30,18 @@ boolean isCornerValid(int i, int j, int k){
     return isValid;
 }
 
+//checks whether the corner piece is in the right position or not
+boolean isCornerSet(){
+    char* frontColor = getFrontMidColor();
+    char* upColor = getUpMidColor();
+    char* rightColor = getRightMidColor();
+    
+    if(((strcmp(getFrontColor(0,0,2),(frontColor))==0)?true:false) && ((strcmp(getUpColor(0,0,2),(upColor))==0)?true:false) && ((strcmp(getRightColor(0,0,2),(rightColor))==0)?true:false))
+        return true;
+    else 
+        return false;
+}
+
 /*
 if topFlag=true implies corner piece is at 0,0,2
 else if topFlag=false implies corner piece is at 0,2,2
@@ -66,4 +78,68 @@ void placeThePiece(){
     else if(isCornerValid(2,2,2)){
         downHorizontal(false,true,++count,' ');
     }
+}
+
+//to set the corner piece At the proper location
+void finalStep2(char* upColor){
+    for(int itr = 0; itr < 4; itr++){
+        placeThePiece();
+        if(!isCornerSet()){
+            if(topFlag){
+                if(((strcmp(getFrontColor(0,0,2),(upColor))==0)?true:false)){
+                    rotateFront(true,true,++count,' ');
+                    downHorizontal(true,true,++count,' ');
+                    rotateFront(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(true,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+                }
+                else if(((strcmp(getRightColor(0,0,2),(upColor))==0)?true:false)){
+                    L(true,true,++count);
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+                }
+            }
+            else{
+                if(((strcmp(getFrontColor(0,2,2),(upColor))==0)?true:false)){
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(true,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+                }
+                else if(((strcmp(getRightColor(0,2,2),(upColor))==0)?true:false)){
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+                }
+                else if(((strcmp(getDownColor(0,2,2),(upColor))==0)?true:false)){
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+                    downHorizontal(true,true,++count,' ');
+                    rightVertical(false,true,++count,' ');
+                    downHorizontal(false,true,++count,' ');
+                    rightVertical(true,true,++count,' ');
+
+                }
+            }
+        }
+    topFlag = false;
+
+    if(itr != 3)
+        circleHorizontal(true,true,++count,' ');
+    }
+}
+
+void layerFirst(){
+    printf("\nx--------x--------x--------x----------x-------x---------x----------x\n");
+    finalStep2(getUpMidColor());
+    printf("________________________________________________\n\n");
+    circleVertical(false,true,++count,' ');
+    circleVertical(false,true,++count,' '); 
+    printf("________________________________________________\n\n");
 }
