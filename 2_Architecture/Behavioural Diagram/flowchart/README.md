@@ -1,23 +1,26 @@
 # This folder contains all the flowcharts of individual functions to solve the Rubik's cube stage by stage
 
 ## 1)PLUS BOTTOM
-![plusBottom](https://user-images.githubusercontent.com/80764759/130318029-313f64b0-d240-4591-bc8b-53d4329849a0.png)
+![plus_bottom](https://user-images.githubusercontent.com/80764759/130356763-06235fd5-f45f-4422-8723-26899da96c10.png)
 
 ## 2)LAYER FIRST
-![layerFirst](https://user-images.githubusercontent.com/80764759/130318022-21b562d5-712f-4a2b-9674-532c58e3589a.png)
+![layer_first](https://user-images.githubusercontent.com/80764759/130356756-ad376710-4e6b-4c04-a8d7-0053b91e1768.png)
 
 ## 3)LAYER SECOND
-![layerSecond](https://user-images.githubusercontent.com/80764759/130318025-9c5f8a5e-b314-4a1c-99bb-7cfa601d3bb1.png)
+![layer_second](https://user-images.githubusercontent.com/80764759/130356757-a0606fd8-512c-414f-a8f7-4a680d5ecc1c.png)
 
 ## 4)PLUS TOP
-![plusTop](https://user-images.githubusercontent.com/80764759/130318030-91e05631-5c48-48a6-87fa-c9505a14ed55.png)
+![plus_top](https://user-images.githubusercontent.com/80764759/130356765-4fbd03d9-20ea-49d8-b4b3-77cd761eda06.png)
 
 ## 5)ALIGN CENTER
-![alignCenter](https://user-images.githubusercontent.com/80764759/130318015-f7388500-e8d0-495e-a3d2-1e52a5f78ccc.png)
+![align_center](https://user-images.githubusercontent.com/80764759/130356750-5c72d342-833e-4a72-8eb9-71d2a8727e41.png)
 
 ## 6)CORNER SOLVE
-![cornerSolve](https://user-images.githubusercontent.com/80764759/130318020-de78d7a1-f50f-40b5-b92f-4b58c645bdc2.png)
+![corner_solve](https://user-images.githubusercontent.com/80764759/130356755-6a42e1a3-5b56-4d6a-a240-303a1699149c.png)
 
 ## 7)LAYER THIRD
-![layerThird](https://user-images.githubusercontent.com/80764759/130318028-dd6475c3-27b8-40f4-a46f-e60160b8d37b.png)
+![layer_third](https://user-images.githubusercontent.com/80764759/130356759-b009c584-4f68-498f-a0c3-92d216ceb005.png)
+
+
+
 
