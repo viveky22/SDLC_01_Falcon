@@ -71,3 +71,28 @@ boolean isAnyMiddleEdgePieceInvalid(){
         return false;
     }
 }
+    
+//solves the second layer using all the edge pieces on the UP layer
+void solveUpEdgePieces(){
+    while(isAnyUpEdgePieceValid()){//while
+        
+        if(isUpEdgePieceValid()){
+            
+            while(!((strcmp(getFrontColor(0,0,1),getFrontMidColor())==0)?true:false)){
+                upHorizontal(false,true,++count,' ');
+                circleHorizontal(true,true,++count,' ');
+            }
+            if(((strcmp(getUpColor(0,0,1),getLeftMidColor())==0)?true:false))
+                layer2(false,true,++count);
+            
+            else 
+                layer2(true,true,++count);
+            
+        }//if color up is valid
+        else{
+            upHorizontal(false,true,++count,' ');
+        }//if color up is not valid
+
+    }//while
+
+}
