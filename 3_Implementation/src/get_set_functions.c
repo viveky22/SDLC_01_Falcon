@@ -39,13 +39,13 @@ int getSize(int i, int j, int k){
                 case 0:count++;break;
                 case 1:break;
                 case 2:count++;break;
-                default: return -1;//as other values of j are not valid
+                default: return -1;   //as other values of j are not valid
             }
             switch(k){
                 case 0:count++;break;
                 case 1:break;
                 case 2:count++;break;
-                default: return -1;//as other values of k are not valid
+                default: return -1;   //as other values of k are not valid
             }
     return count;
 }
