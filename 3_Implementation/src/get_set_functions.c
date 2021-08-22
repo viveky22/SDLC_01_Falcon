@@ -91,6 +91,7 @@ switch(k){
     return str;
 }
 
+//returns a String(char *) that specifies the location of Node i,j,k in 3-D array
 char* getLocation(int i, int j, int k){
     if(!(is_i_j_k_valid(i,j,k)))return NULL;
 
