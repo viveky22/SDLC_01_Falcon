@@ -96,3 +96,34 @@ void solveUpEdgePieces(){
     }//while
 
 }
+
+//solves the unsolved pieces in the middle layer 
+void solveMiddleEdgePieces(){
+
+    while(isAnyMiddleEdgePieceInvalid()){//whileMain
+
+        char* frontColor=getFrontMidColor();
+        char* rightColor=getRightMidColor();
+        char* frontFMRColor=getFrontColor(0,1,2);
+        char* rightFMRColor=getRightColor(0,1,2);
+        
+        //checks if FMR piece is at the right position or not
+        if( !(((strcmp(frontFMRColor,(frontColor))==0)?true:false) && ((strcmp(rightFMRColor,(rightColor))==0)?true:false)) ){
+            layer2(true,true,++count);
+            solveUpEdgePieces();
+        }//if
+        else if(isAnyMiddleEdgePieceInvalid()){
+            circleHorizontal(true,true,++count,' ');
+        }//else if
+    }//whileMain
+}
+
+void layerSecond(){
+    
+    printf("\nx--------x--------x--------x----------x-------x---------x----------x\n");
+    solveUpEdgePieces();
+    printf("\n------------------------------------------------\n");
+    solveMiddleEdgePieces();
+    printf("________________________________________________\n");
+
+}
