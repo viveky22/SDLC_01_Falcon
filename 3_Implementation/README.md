@@ -4,4 +4,4 @@
 Folder        | Description
 --------------| ----------------------------------------------
 `inc`         |  header files
-`SRC`         | Source code files for solving rubik cube
+`src`         | Source code files for solving rubik's cube
