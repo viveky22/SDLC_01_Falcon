@@ -2,6 +2,8 @@
 L&amp;T Technology Services Mini-Project (GENESIS_AUGUST_2021)
 
 # ***Rubik's Cube Solver***
+The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer.
+
 ![image](https://user-images.githubusercontent.com/65846052/130062337-a520132d-b01b-4328-a85b-b0d02f9085d2.png)
 
 ## Abstract
