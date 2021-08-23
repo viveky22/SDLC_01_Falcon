@@ -41,3 +41,22 @@ Basic requirements that are very essential are:
 * A rubik's cube application or a real rubik's cube.
 * gcc compiler with a good system.
 * Any of the two linux/windows.
+
+## HIGH LEVEL REQUIREMENTS:
+
+|ID|DESCRIPTION|CATEGORY|STATUS|
+|:-----|:--------------------------------|:----------------|:----------|
+|HR01|User shall be able to provide colors present in the rubik’s cube.|Technical|                       |
+|HR02|User shall be able to solve a Rubik’s cube from any starting condition.|Technical|                  |
+|HR03|User shall be able to see all the steps needed to solve the rubik's cube along with the colors displayed on the console.|Technical|            |
+|HR04|User should be able to solve the cube in minimum number of steps.|Technical|Future|
+|HR05|Displaying a message while the program is figuring out the solution would greatly improve the ease of use|Scenario|Future|
+|HR06|Adding an option to view general Rubik's cube algorithms which will increase the uses of solving it easily.|Technical|Future|
+
+## LOW LEVEL REQUIREMENTS:
+
+### VALIDATION
+|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|:-------|:-------|:-------|:-------|
+|LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|Technical|
+|LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|Technical|
