@@ -4,8 +4,8 @@
 
 | Test ID | Description | Exp I/P | Exp O/P |	Actual Output | Type of Test |
 | --- | --- | --- | --- | --- | --- |
-| H_01 | Software Testing |  |  |  | Scenario Based |
-| H_02 | System Testing |  |  | | Boundary Based  |
+| H_01 | Software Testing | Checks if the code is working as expected, by considering the test cases | Pass | Pass | Scenario Based |
+| H_02 | System Testing | Checks if the system returns the expected output | Pass | Pass| Boundary Based  |
 
 
 ## Low Level Test Plan 
