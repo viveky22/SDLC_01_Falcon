@@ -4,7 +4,7 @@
 
 ![2021-08-22 (2)](https://user-images.githubusercontent.com/65846052/130355822-6a93f313-8170-448d-8e05-b02ebd44aa49.png)
 
-## Project Members
+## PROJECT MEMBERS
 |PS No.|Name|
 |:-------|:------------|
 |99005677 |Nikhil Nevin Vas |
@@ -19,11 +19,11 @@
 |99005692 |Kausikaa B |
 |99005643 |Uttam R |
 
-## Abstract 
+## ABSTRACT
 The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture ***Ernő Rubik***. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer. Rubik's Cube won the 1980 German Game of the Year special award for Best Puzzle. As of January 2009, 350 million cubes had been sold worldwide, making it the world's bestselling puzzle game and bestselling toy.
 In this project, the user is able to provide colors present in the rubik's cube as input. Based on the color information (input) provided by the user, a small check is done on whether the colors provided is valid or invalid. If all the colors provided by the user is valid then the steps to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
 
-## Folder Structure
+## FOLDER STRUCTURE
 |Folder|Description|
 |:-----|:----------|
 |1_Requirements|Documents detailing and research|
@@ -33,13 +33,13 @@ In this project, the user is able to provide colors present in the rubik's cube 
 |5_Report|Project Report|
 |6_ImagesAndVideos|Project output and videos|
 
-## Introduction 
+## INTRODUCTION
 In this project the user is able to provide colors present in the rubik's cube as input. Based on the color information provided by the user a small check is done, on whether the colors provided is valid or not. If all the colors provided by the user is valid then the number of steps required to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
 
 ![image](https://user-images.githubusercontent.com/65846052/130062337-a520132d-b01b-4328-a85b-b0d02f9085d2.png)
 
 
-## Objective 
+## OBJECTIVE 
 The main objectives of this project are: 
 * To solve a rubik's cube using beginners method.
 * To perform operations on rubik's cube and display the results.
