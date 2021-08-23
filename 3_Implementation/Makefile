@@ -40,7 +40,7 @@ test/test_rubiks_cube.c\
 unity/unity.c\
 
 # Covrage source file
-COV_SRC = Test/test_RubiksCubeSolver.c
+COV_SRC = test_rubiks_cube.c
 
 # All include folders with header files
 INC	= -Iinc\
@@ -98,8 +98,8 @@ clean:
 	$(RM) $(call FixPath,$(PROJECT_NAME),$(PROJECT_NAME).gcno)
 
 # Coverage
-coverage: ${TEST_PROJ_NAME}
-	cp $(COV_SRC) .
+coverage:
+	cp test/$(COV_SRC) .
 	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(call FixPath,./$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
