@@ -155,7 +155,7 @@ void finalStep1(char* downColor){
     }
 }
 
-
+//displays all the steps to perform plusBottom
 void plusBottom(){
     char* downColor=getDownMidColor();
         printf("________________________________________________\n\n");

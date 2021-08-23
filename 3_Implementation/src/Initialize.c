@@ -3,11 +3,7 @@
 #include <string.h>
 #include "rubiks_cube.h"
 
-/**
- * @brief cheacks whether all the Nodes entered by the user is valid or not
- * 
- * @return boolean 
- */
+//checks whether all the Nodes entered by the user is valid or not
 boolean isNodeValid(){
     for(int i = 0; i < DIMENSION; i++){
         for(int j = 0; j < DIMENSION; j++){
@@ -41,8 +37,7 @@ boolean isNodeValid(){
     return true;
 }
 
-    //checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit
-
+//checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit
 boolean isRubiksCubeValid(){
 
     char* f = getFrontMidColor();
@@ -94,6 +89,7 @@ boolean isRubiksCubeValid(){
 
 }
 
+//asks color from user
 void setRubixCube(){    //void setRubixCube()
 printf("********************************************************************************************\n");
 printf("Enter the colours of rubix cube one at a time when asked(MAX CHARACTERS=9)\n");

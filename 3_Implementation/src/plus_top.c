@@ -2,7 +2,7 @@
 #include <string.h>
 #include "solve_cube.h"
     
-       
+
     boolean isTopPlus(){
         int j=0;
         char* upColor = getUpMidColor();
