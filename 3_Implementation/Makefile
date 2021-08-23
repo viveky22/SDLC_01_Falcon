@@ -1,6 +1,9 @@
 # Name of the project
 PROJECT_NAME = RubiksCubeSolver
 
+# Name of the test project
+TEST_PROJ_NAME = test_$(PROJECT_NAME)
+
 # Output directory
 BUILD = build
 
@@ -36,6 +39,9 @@ src/solve_all.c\
 test/test_rubiks_cube.c\
 unity/unity.c\
 
+# Covrage source file
+COV_SRC = Test/test_RubiksCubeSolver.c
+
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
@@ -52,6 +58,19 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
 
+#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
 # Default target built
 $(PROJECT_NAME):all
 
@@ -59,38 +78,49 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC))
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	$(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC))
 
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
 
 # Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
+test:$(TEST_SRC) $(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	$(RM) $(call FixPath,$(BUILD))
+	$(RM) $(call FixPath,$(DOCUMENTATION_OUTPUT))
+	$(RM) $(call FixPath,$(PROJECT_NAME),$(PROJECT_NAME).gcno)
 
 # Coverage
-coverage: ${PROJ_NAME}
-	cp $(SRC) .
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,./$(PROJ_NAME).$(EXEC))
-	$(call FixPath,./$(PROJ_NAME).$(EXEC))
-	gcov -a $(SRC)
+coverage: ${PROJECT_NAME}
+	cp $(COV_SRC) .
+	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(call FixPath,./$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,./$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda
 	$(RM) *.gcno
 	$(RM) *.c.gcov
 	$(RM) *.DAT
-	$(RM) $(SRC)
+	$(RM) $(COV_SRC)
 
 # Create new build folder if not present
 $(BUILD):
 	mkdir build
+
+# Dynamic check
+dynamic: $(TEST_SRC) $(BUILD)
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
+
+# Static code analysis
+cppcheck:
+	cppcheck -i unity --enable=all .
