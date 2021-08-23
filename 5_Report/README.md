@@ -74,3 +74,13 @@ Basic requirements that are very essential are:
 |LR10|middleVertical|performs vertical motion on the middle layer|Technical|
 |LR11|rightVertical|performs vertical motion on the right layer|Technical|
 
+### ALGORITHMS
+|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|:-------|:-------|:-------|:-------|
+|LR12|L|This algorithm is used to solve a corner piece while solving layer1 and also used to solve corner piece at the end|Technical|
+|LR13|layer2|This algorithm is used to solve the second layer of rubik's cube |Technical|
+|LR14|twistFront|This algorithm is used to create a plus mark at the top|Technical|
+|LR15|upTwist|This algorithm is used to align the edge pieces of the top layer|Technical|
+|LR16|corner|algorithm is used to solve the corner pieces of the top layer|Technical|
+
+
