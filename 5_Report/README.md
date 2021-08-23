@@ -60,3 +60,17 @@ Basic requirements that are very essential are:
 |:-------|:-------|:-------|:-------|
 |LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|Technical|
 |LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|Technical|
+
+### BASIC OPERATIONS
+|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|:-------|:-------|:-------|:-------|
+|LR03|rotateFront|performs rotate operation on the front layer|Technical|
+|LR04|rotateMiddle|performs rotate operation on the middle layer|Technical|
+|LR05|rotateBack|performs rotate operation on the back layer|Technical|
+|LR06|upHorizontal|performs horizontal motion on upper layer|Technical|
+|LR07|middleHorizontal|performs horizontal motion on the middle layer|Technical|
+|LR08|downHorizontal|performs horizontal motion on the down layer|Technical|
+|LR09|leftVertical|performs vertical motion on the left layer|Technical|
+|LR10|middleVertical|performs vertical motion on the middle layer|Technical|
+|LR11|rightVertical|performs vertical motion on the right layer|Technical|
+
