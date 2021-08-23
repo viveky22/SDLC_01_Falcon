@@ -123,11 +123,13 @@ char* getLocation(int i, int j, int k){
 
 }
 
+//returns color for a given i,j,k,index values
 char* getColor(int i, int j, int k, int index){   
 if(!(is_i_j_k_valid(i,j,k) && isIndexValid(i,j,k,index)))return NULL;
 return piece[i][j][k].color[index];
 }
 
+//returns index for a given i,j,k,position values
 int get_index(int i, int j, int k, char* position){
     
     if(!(is_i_j_k_valid(i,j,k) && isPositionValid(position)))return -1;
@@ -152,64 +154,79 @@ int get_index(int i, int j, int k, char* position){
     return -1;
 }
 
+//returns color at given i,j,k,position values
 char* getColorAt(int i, int j, int k, char* position){
     if(!(is_i_j_k_valid(i,j,k) && isPositionValid(position)))return NULL;
 return getColor(i,j,k,get_index(i,j,k,position));
 }
 
+//returns front layer middle color
 char* getFrontMidColor(){
     return getColorAt(0,1,1,FRONT);
 }
 
+//returns back layer middle color
 char* getBackMidColor(){
     return getColorAt(2,1,1,BACK);
 }
 
+//returns up layer middle color
 char* getUpMidColor(){
     return getColorAt(1,0,1,UP);
 }
 
+//returns down layer middle color
 char* getDownMidColor(){
     return getColorAt(1,2,1,DOWN);
 }
 
+//returns left layer middle color
 char* getLeftMidColor(){
     return getColorAt(1,1,0,LEFT);
 }
 
+//returns right layer middle color
 char* getRightMidColor(){
     return getColorAt(1,1,2,RIGHT);
 }
 
+//returns front color for a given i,j,k values
 char* getFrontColor(int i, int j, int k){
     return getColorAt(i,j,k,FRONT);
 }
 
+//returns back color for a given i,j,k values
 char* getBackColor(int i, int j, int k){
     return getColorAt(i,j,k,BACK);
 }
 
+
+//returns up color for a given i,j,k values
 char* getUpColor(int i, int j, int k){
     return getColorAt(i,j,k,UP);
 }
 
+//returns down color for a given i,j,k values
 char* getDownColor(int i, int j, int k){
     return getColorAt(i,j,k,DOWN);
 }
 
+//returns left color for a given i,j,k values
 char* getLeftColor(int i, int j, int k){
     return getColorAt(i,j,k,LEFT);
 }
 
+//returns right color for a given i,j,k values
 char* getRightColor(int i, int j, int k){
     return getColorAt(i,j,k,RIGHT);
 }
 
-
+//sets color at given i,j,k,index values
 void setColor(int i, int j, int k, int index, char* color){
     strcpy(piece[i][j][k].color[index],color);
 }
 
+//sets color at given i,j,k,position values
 void setColorAt(int i, int j, int k, char* position, char* color){
     strcpy(piece[i][j][k].color[get_index(i,j,k,position)],color);
 }
