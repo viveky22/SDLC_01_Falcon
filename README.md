@@ -14,7 +14,7 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 
 |Build    |Code Quality     |Unity   |Git Inspector|
 |:--------|:----------------|:--------|:-----------|
-|[![C/C++ CI](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml)||||
+|[![C/C++ CI](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml)||[![Unit testing](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/unit-test.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/unit-test.yml)||
 
 ## Folder Structure
 |Folder|Description|
