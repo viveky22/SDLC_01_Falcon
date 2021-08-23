@@ -83,4 +83,17 @@ Basic requirements that are very essential are:
 |LR15|upTwist|This algorithm is used to align the edge pieces of the top layer|Technical|
 |LR16|corner|algorithm is used to solve the corner pieces of the top layer|Technical|
 
+### SOLUTION
+|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|:-------|:-------|:-------|:-------|
+|LR17|plusBottom|creates a plus mark at the bottom|Technical|
+|LR18|layerFirst|completes the first layer|Technical|
+|LR19|layerSecond|completes the second layer if first layer is complete|Technical|
+|LR20|plusTop|cretes a plus mark at the top after solving first and second layer|Technical|
+|LR21|alignCenter|aligns all the centers of the top layer|Technical|
+|LR20|cornerAlign|positions the corner pieces(at the top) at the right location|Technical|
+|LR22|layerThird|solves the corner pieces|Technical|
+|LR23|solveAll|uses all the above functions to solve the rubik's cube|Technical|
+
+
 
