@@ -58,7 +58,7 @@ DOCUMENTATION_OUTPUT = documentation/html
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
-   RM = del /q
+   RM = rm -rf
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
