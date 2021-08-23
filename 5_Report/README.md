@@ -17,6 +17,9 @@ In this project, the user is able to provide colors present in the rubik's cube 
 ## Introduction 
 In this project the user is able to provide colors present in the rubik's cube as input. Based on the color information provided by the user a small check is done, on whether the colors provided is valid or not. If all the colors provided by the user is valid then the number of steps required to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
 
+![image](https://user-images.githubusercontent.com/65846052/130062337-a520132d-b01b-4328-a85b-b0d02f9085d2.png)
+
+
 ## Objective 
 The main objectives of this project are: 
 * To solve a rubik's cube using beginners method.
