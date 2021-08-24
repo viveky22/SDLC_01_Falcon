@@ -14,13 +14,13 @@
 #### solve Color Down
 ![1c_solveColorDown](https://user-images.githubusercontent.com/80394921/130637580-0afc6214-d023-4fd7-94eb-fa0c283cf6af.png)
 <br>
-
+####
 <img width="384" alt="1d_finalStep" src="https://user-images.githubusercontent.com/80394921/130637585-399e9177-7c06-46fe-bc7d-973251eca66a.png">
 <br>
-
+####
 <img width="211" alt="1e_circleVerticalTwice" src="https://user-images.githubusercontent.com/80394921/130637586-093a80a2-e73d-4533-b2a6-9bb9e0c68914.png">
 <br>
-
+####
 <img width="354" alt="2_solveLayerFirst" src="https://user-images.githubusercontent.com/80394921/130637589-adc67c71-e185-4575-853f-fda409874a05.png">
 <br>
 #### first Step
