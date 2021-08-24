@@ -111,7 +111,7 @@ make clean
 |99005642 |N Namratha Reddy | 0 | 1 |  Design, Implementation and Documentation|
 |99005698 |Sampanna T |  3| 2 | test plans and implementation |
 |99005639 |Harshitha M S | 0 | 1 | Design, Implementation |
-|99005686 |Hamsa G |  |  |
+|99005686 |Hamsa G | 1 | 0 |Design, Implementation and Documentation
 |99005675 |Shruthi Suresh   | 1 | 1 | Design, Implementation and Documentation|
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
