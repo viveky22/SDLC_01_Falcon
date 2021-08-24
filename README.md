@@ -25,6 +25,8 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 
 ## How to Build
 
+![make](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/3_Implementation/make.gif)
+
 ### To build and execute:
 ```
 make all
