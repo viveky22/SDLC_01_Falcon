@@ -43,7 +43,7 @@ For dev mode, edit the string of setRubixCubeAtOnce function as follows:
 * For Front and Back layer nodes( i = 0 and i = 2 ), at each node enter the facing colour, then the up/bottom colour( depending on position of node ), and finally the left/right colour.
 * For middle layer ( i = 1 ), enter the up/bottom colour, then the left/right colour.
 
-![Axis](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/RubixCubeAxis.jpg)
+![Axis](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/RubixCubeAxis.png)
 
 ### Documentation
 
