@@ -4,6 +4,8 @@
 ![Activity Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/activityDiagram.jpg)
 
 ### Flowcharts
+
+#### Solve plus Bottom
 ![1_solvePlusBottom](https://user-images.githubusercontent.com/80394921/130637568-561790fc-e192-4013-b485-dc1f000bf5e5.png)
 <br>
 ![1b_solveMiddleColor](https://user-images.githubusercontent.com/80394921/130637579-5b9fb6d5-ff9d-47cc-9b1d-3d6b5f0b3f42.png)
