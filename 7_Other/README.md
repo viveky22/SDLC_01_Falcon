@@ -6,7 +6,7 @@ Day no.|PS No.|Name|Contributions|status
 | Day 1|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C |  |  |
 | |99005642 |N Namratha Reddy |  |  |
-| |99005698 |Sampanna T |  |  |
+| |99005698 |Sampanna T | Discussion with the team on choosing the project|COMPLETED  |
 | |99005639 |Harshitha M S |  |  |
 | |99005686 |Hamsa G |  |  |
 | |99005675 |Shruthi Suresh |  |  |
@@ -17,7 +17,7 @@ Day no.|PS No.|Name|Contributions|status
 | Day 2|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C |  |  |
 | |99005642 |N Namratha Reddy |  |  |
-| |99005698 |Sampanna T |  |  |
+| |99005698 |Sampanna T | Addition of Low level requirement | COMPLETED |
 | |99005639 |Harshitha M S |  |  |
 | |99005686 |Hamsa G |  |  |
 | |99005675 |Shruthi Suresh |  |  |
@@ -28,7 +28,7 @@ Day no.|PS No.|Name|Contributions|status
 | Day 3|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C |  |  |
 | |99005642 |N Namratha Reddy |  |  |
-| |99005698 |Sampanna T |  |  |
+| |99005698 |Sampanna T | Added images of different stages of solving rubik's cube, added 2 flowcharts in flowchart sections and a component diagram |COMPLETED  |
 | |99005639 |Harshitha M S |  |  |
 | |99005686 |Hamsa G |  |  |
 | |99005675 |Shruthi Suresh |  |  |
@@ -39,7 +39,7 @@ Day no.|PS No.|Name|Contributions|status
 | Day 4|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C |  |  |
 | |99005642 |N Namratha Reddy |  |  |
-| |99005698 |Sampanna T |  |  |
+| |99005698 |Sampanna T | implemented corner_solve.c ,layer_third.c,test_rubiks_cube.c | COMPLETED |
 | |99005639 |Harshitha M S |  |  |
 | |99005686 |Hamsa G |  |  |
 | |99005675 |Shruthi Suresh |  |  |
@@ -50,7 +50,7 @@ Day no.|PS No.|Name|Contributions|status
 | Day 5|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C |  |  |
 | |99005642 |N Namratha Reddy |  |  |
-| |99005698 |Sampanna T |  |  |
+| |99005698 |Sampanna T | Solved 2 issues, added git inspector image, added daily stand up table| COMPLETED |
 | |99005639 |Harshitha M S |  |  |
 | |99005686 |Hamsa G |  |  |
 | |99005675 |Shruthi Suresh |  |  |
