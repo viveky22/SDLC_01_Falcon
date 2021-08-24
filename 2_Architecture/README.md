@@ -6,6 +6,9 @@
 ## Use Case Diagram
 ![Use Case Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/useCase.jpg)
 
+## Sequence Diagram
+![Sequence Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/sequenceDiagram.jpg)
+
 ### Flowcharts
 
 #### Solve plus Bottom
