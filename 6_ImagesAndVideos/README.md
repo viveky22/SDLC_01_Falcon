@@ -14,15 +14,9 @@ In this, we are giving Fixed input to the rubik's cube solver and executing the 
 The input pattern provided to the main file is "GREEN RED WHITE GREEN ORANGE GREEN ORANGE WHITE ORANGE YELLOW BLUE BLUE ORANGE YELLOW ORANGE GREEN GREEN RED BLUE WHITE RED YELLOW RED YELLOW WHITE BLUE ORANGE RED GREEN YELLOW WHITE BLUE YELLOW BLUE ORANGE YELLOW WHITE GREEN RED GREEN YELLOW RED BLUE GREEN WHITE ORANGE BLUE ORANGE WHITE WHITE RED YELLOW RED BLUE".
 <br>
 
-##### Input_1
+##### Input
+<img width="960" alt="Main_Inbuilt_Input" src="https://user-images.githubusercontent.com/43474770/130659821-1e9d4022-6dc0-414f-88fb-4a65ff808c8a.PNG">
 
-<img width="960" alt="Input-1_Fixed input" src="https://user-images.githubusercontent.com/43474770/130658930-954b50ff-8421-4163-ba85-a4e6bfbc9462.PNG">
-
-
-
-##### Input_2
-
-<img width="960" alt="Input-2" src="https://user-images.githubusercontent.com/43474770/130634951-d45b1e5d-2269-47a9-9b88-e1a9addf4f54.PNG">
 <br>
 <br>
 
