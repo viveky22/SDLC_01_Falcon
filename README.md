@@ -105,7 +105,7 @@ make clean
 ## Contributors List
 |PS No.|Name|Issues raised|Issues resolved| Individual Features |
 |:-------|:------------|-----------|----------| ------------ |
-|99005677 |Nikhil Nevin Vas |  |  |  
+|99005677 |Nikhil Nevin Vas | 1 | 0 | 2 source files, design and High level testing 
 |99005655 |Vinay B C | 0 | 1 | Requirements and Implementation  |
 |99005642 |N Namratha Reddy | 0 | 1 |  Design, Implementation and Documentation|
 |99005698 |Sampanna T |  3| 2 | test plans and implementation |
