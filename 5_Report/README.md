@@ -117,6 +117,15 @@ Basic requirements that are very essential are:
 |LR22|layerThird|solves the corner pieces|Technical|
 |LR23|solveAll|uses all the above functions to solve the rubik's cube|Technical|
 
+## Design
+## Behavioural Diagrams 
+## Use Case Diagram
+![Use Case Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/useCase.jpg)
+## Activity Diagram
+![Activity Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/activityDiagram.jpg)
+## Sequence Diagram
+![Sequence Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/sequenceDiagram.jpg)
+
 ### Steps for Execution
 * Clone the repository.
 * Open the terminal and change the directory to 3_Implementation (Hint: Use cd command).
