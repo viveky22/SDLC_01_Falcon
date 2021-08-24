@@ -6,8 +6,6 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 
 ![image](https://user-images.githubusercontent.com/65846052/130062337-a520132d-b01b-4328-a85b-b0d02f9085d2.png)
 
-![image](https://user-images.githubusercontent.com/82046396/130599655-21b50430-b874-4a0b-ba1d-0df708464de6.png)
-
 ## Abstract
 * In this project, the user is able to provide colors present in the rubik's cube as input. 
 * Based on the color information(input) provided by the user, a small check is done on whether the colors provided is valid or invalid. 
