@@ -3,17 +3,10 @@
 
 ## Fixed Input
 
-### Main Function Image 
 
-#### Description:
-In this, we are giving Fixed input to the main file and executing the program, where we will be getting the steps to solve the rubik's cube.
+In this, we are giving Fixed input to the rubik's cube solver and executing the program, where we will be getting the steps to solve the rubik's cube.
 <br>
 
-##### Fixed_Input
-
-<img width="960" alt="Main_Inbuilt_Input" src="https://user-images.githubusercontent.com/43474770/130635066-10ffde29-8fdd-4401-9f4f-78c9b796321c.PNG">
-<br>
-<br>
 
 ### Input Images
 
@@ -23,7 +16,8 @@ The input pattern provided to the main file is "GREEN RED WHITE GREEN ORANGE GRE
 
 ##### Input_1
 
-<img width="960" alt="Input-1" src="https://user-images.githubusercontent.com/43474770/130634636-cbe5d6a3-f792-4107-9421-151a6f8a4431.PNG">
+<img width="960" alt="Input-1_Fixed input" src="https://user-images.githubusercontent.com/43474770/130658930-954b50ff-8421-4163-ba85-a4e6bfbc9462.PNG">
+
 
 
 ##### Input_2
@@ -104,7 +98,6 @@ Order followed in the Layer by layer approach:
 
 ### User Input
 
-#### Main function Image
 
 ##### Description:
  In this we are obtaining the input from the user and executing the program ,where we will be getting the steps to solve the rubik's cube.
