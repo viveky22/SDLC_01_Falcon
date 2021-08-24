@@ -21,8 +21,7 @@
 <img width="211" alt="1e_circleVerticalTwice" src="https://user-images.githubusercontent.com/80394921/130637586-093a80a2-e73d-4533-b2a6-9bb9e0c68914.png">
 <br>
 ####
-<img
-     width="354" alt="2_solveLayerFirst" src="https://user-images.githubusercontent.com/80394921/130637589-adc67c71-e185-4575-853f-fda409874a05.png">
+<img width="354" alt="2_solveLayerFirst" src="https://user-images.githubusercontent.com/80394921/130637589-adc67c71-e185-4575-853f-fda409874a05.png">
 <br>
 #### first Step
 ![2a_firstStep](https://user-images.githubusercontent.com/80394921/130637591-d278c3d8-2951-42fb-9c5f-87c47d12868e.png)
