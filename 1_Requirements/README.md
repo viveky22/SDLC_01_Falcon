@@ -43,23 +43,23 @@ Basic requirements that are very essential are:
 ## LOW LEVEL REQUIREMENTS:
 
 ### VALIDATION
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
-|:-------|:-------|:-------|:-------|
-|LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|Implemented|
-|LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|Implemented|
+|ID|FUNCTIONS|DESCRIPTION|HLR ID|STATUS|
+|:-------|:-------|:-------|:-------|:-------|
+|LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|HR01|Implemented|
+|LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|HR01|Implemented|
 
 ### BASIC OPERATIONS
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
-|:-------|:-------|:-------|:-------|
-|LR03|rotateFront|performs rotate operation on the front layer|Implemented|
-|LR04|rotateMiddle|performs rotate operation on the middle layer|Implemented|
-|LR05|rotateBack|performs rotate operation on the back layer|Implemented|
-|LR06|upHorizontal|performs horizontal motion on upper layer|Implemented|
-|LR07|middleHorizontal|performs horizontal motion on the middle layer|Implemented|
-|LR08|downHorizontal|performs horizontal motion on the down layer|Implemented|
-|LR09|leftVertical|performs vertical motion on the left layer|Implemented|
-|LR10|middleVertical|performs vertical motion on the middle layer|Implemented|
-|LR11|rightVertical|performs vertical motion on the right layer|Implemented|
+|ID|FUNCTIONS|DESCRIPTION|HLR ID|STATUS|
+|:-------|:-------|:-------|:-------|:-------|
+|LR03|rotateFront|performs rotate operation on the front layer|HR02_03|Implemented|
+|LR04|rotateMiddle|performs rotate operation on the middle layer|HR02_03|Implemented|
+|LR05|rotateBack|performs rotate operation on the back layer|HR02_03|Implemented|
+|LR06|upHorizontal|performs horizontal motion on upper layer|HR02_03|Implemented|
+|LR07|middleHorizontal|performs horizontal motion on the middle layer|HR02_03|Implemented|
+|LR08|downHorizontal|performs horizontal motion on the down layer|HR02_03|Implemented|
+|LR09|leftVertical|performs vertical motion on the left layer|HR02_03|Implemented|
+|LR10|middleVertical|performs vertical motion on the middle layer|HR02_03|Implemented|
+|LR11|rightVertical|performs vertical motion on the right layer|HR02_03|Implemented|
 
 ### ALGORITHMS
 |ID|FUNCTIONS|DESCRIPTION|HLR ID|STATUS|
@@ -71,14 +71,14 @@ Basic requirements that are very essential are:
 |LR16|corner|algorithm is used to solve the corner pieces of the top layer|HR04|Implemented|
 
 ### SOLUTION
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
-|:-------|:-------|:-------|:-------|
-|LR17|plusBottom|creates a plus mark at the bottom|Implemented|
-|LR18|layerFirst|completes the first layer|Implemented|
-|LR19|layerSecond|completes the second layer if first layer is complete|Implemented|
-|LR20|plusTop|cretes a plus mark at the top after solving first and second layer|Implemented|
-|LR21|alignCenter|aligns all the centers of the top layer|Implemented|
-|LR20|cornerAlign|positions the corner pieces(at the top) at the right location|Implemented|
-|LR22|layerThird|solves the corner pieces|Implemented|
-|LR23|solveAll|uses all the above functions to solve the rubik's cube|Implemented|
+|ID|FUNCTIONS|DESCRIPTION|HLR ID|STATUS|
+|:-------|:-------|:-------|:-------|:-------|
+|LR17|plusBottom|creates a plus mark at the bottom|HR03|Implemented|
+|LR18|layerFirst|completes the first layer|HR03|Implemented|
+|LR19|layerSecond|completes the second layer if first layer is complete|HR03|Implemented|
+|LR20|plusTop|cretes a plus mark at the top after solving first and second layer|HR03|Implemented|
+|LR21|alignCenter|aligns all the centers of the top layer|HR03|Implemented|
+|LR20|cornerAlign|positions the corner pieces(at the top) at the right location|HR03|Implemented|
+|LR22|layerThird|solves the corner pieces|HR03|Implemented|
+|LR23|solveAll|uses all the above functions to solve the rubik's cube|HR03|Implemented|
 
