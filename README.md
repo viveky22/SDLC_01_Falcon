@@ -9,7 +9,7 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 ## Abstract
 * In this project, the user is able to provide colors present in the rubik's cube as input. 
 * Based on the color information(input) provided by the user, a small check is done on whether the colors provided is valid or invalid. 
-* If all the colors provided by the user is valid then the steps to solve the rubik's cube will be displayed using which the rubik's cube can be solved.
+* If all the colors provided by the user is valid then the steps involved to solve the rubik's cube will be displayed using which the rubik's cube can be solved accordingly to the algorithm.
 
 
 |Build    |Static Code Analysis |Dynamic Code Analysis|Code Quality     |Unity   |Git Inspector|
@@ -20,7 +20,7 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 |Folder|Description|
 |:-----|:----------|
 |1_Requirements|Documents detailing requirements and research|
-|2_Architecture|Documents regarding design details|
+|2_Architecture|Folders regarding design details|
 |3_Implementation|Complete code and documentation|
 |4_TestPlanAndOutput|Documents with test plan and procedure|
 |5_Report|Project Report|
