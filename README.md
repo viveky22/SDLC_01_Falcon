@@ -75,7 +75,7 @@ make doc
 |PS No.|Name|Issues raised|Issues resolved| Individual Features |
 |:-------|:------------|-----------|----------| ------------ |
 |99005677 |Nikhil Nevin Vas |  |  |  
-|99005655 |Vinay B C |  |  |
+|99005655 |Vinay B C |  | 1 | Requirements and Implementation  |
 |99005642 |N Namratha Reddy |  |  |
 |99005698 |Sampanna T |  3| 2 | test plans and implementation |
 |99005639 |Harshitha M S |  | 1 | Design, Implementation |
