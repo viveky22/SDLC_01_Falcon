@@ -116,6 +116,9 @@ Basic requirements that are very essential are:
 |LR20|cornerAlign|positions the corner pieces(at the top) at the right location|Technical|
 |LR22|layerThird|solves the corner pieces|Technical|
 |LR23|solveAll|uses all the above functions to solve the rubik's cube|Technical|
+
+### Steps for Execution
+
 ### BADGES
 
 |Build    |Static Code Analysis |Dynamic Code Analysis|Code Quality     |Unity   |Git Inspector|
