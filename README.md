@@ -110,7 +110,7 @@ make clean
 |99005655 |Vinay B C | 0 | 1 | Requirements and Implementation  |
 |99005642 |N Namratha Reddy | 0 | 1 |  Design, Implementation and Documentation|
 |99005698 |Sampanna T |  3| 2 | test plans and implementation |
-|99005639 |Harshitha M S |  | 1 | Design, Implementation |
+|99005639 |Harshitha M S | 0 | 1 | Design, Implementation |
 |99005686 |Hamsa G |  |  |
 |99005675 |Shruthi Suresh   | 1 | 1 | Design, Implementation and Documentation|
 |99005696 |Dibyanshu Gupta |  |  |
