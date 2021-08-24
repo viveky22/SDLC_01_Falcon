@@ -60,6 +60,35 @@ For dev mode, edit the string of setRubixCubeAtOnce function as follows:
 make doc
 ```
 
+### Test
+
+```
+make test
+```
+
+### Coverage
+
+```
+make coverage
+```
+
+### Dynamic analysis
+
+```
+make dynamic
+```
+
+### Static analysis
+
+```
+make static
+```
+
+### Uninstall
+```
+make clean
+```
+
 
 ## Folder Structure
 |Folder|Description|
