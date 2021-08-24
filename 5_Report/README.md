@@ -135,13 +135,6 @@ Basic requirements that are very essential are:
 ![Class Diagram](https://user-images.githubusercontent.com/80383788/130349328-28266f41-2723-4b41-8f0d-f3b5d8d29aca.png)
 
 
-
-### Steps for Execution:
-* Clone the repository.
-* Open the terminal and change the directory to 3_Implementation (Hint: Use cd command).
-* Use "make all" command to generate the executable.
-* Finally, use "make run" to start the application.
-
 ### Input format:
 For normal mode input the colors as asked.
 
