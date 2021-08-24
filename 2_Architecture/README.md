@@ -3,6 +3,9 @@
 ### Activity Diagram
 ![Activity Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/activityDiagram.jpg)
 
+## Use Case Diagram
+![Use Case Diagram](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/useCase.jpg)
+
 ### Flowcharts
 
 #### Solve plus Bottom
