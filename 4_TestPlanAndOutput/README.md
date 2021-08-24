@@ -4,8 +4,16 @@
 
 | Test ID | Description | Exp I/P | Exp O/P |	Actual Output | Type of Test |
 | --- | --- | --- | --- | --- | --- |
-| H_01 | Software Testing | Checks if the code is working as expected, by considering the test cases | Pass | Pass | Scenario Based |
-| H_02 | System Testing | Checks if the system returns the expected output | Pass | Pass| Boundary Based  |
+| H_01 | Check if the code is working as expected, by considering the test cases | Jumbled cube | Solved Cube | Solved Cube | Scenario Based |
+| H_02 | Check if the system handles boundary conditions | Invalid Cube | Error | Error | Boundary Based |
+| H_03 | Check if cross is obtained in first layer | Jumbled Cube | Cross obtained | Cross obtained | Integration Based |
+| H_04 | Check if first layer is solved| Solved Cross Cube | First layer solved cube | First layer solved cube | Integration Based |
+| H_05 | Check if second layer is solved | First layer solved cube | Second layer solved cube | Second layer solved cube | Integration Based |
+| H_06 | Check if top layer cross is obtained | Second layer solved cube | Top layer cross obtained | Top layer cross obtained | Integration Based |
+| H_07 | Check if top layer edges are aligned | Top layer cross obtained cube| Top layer edges aligned | Top layer edges aligned | Integration Based |
+| H_08 | Check if top layer corners are aligned | Top layer edges aligned cube | Top layer corners aligned | Top layer corners aligned | Integration Based |
+| H_09 | Check if top layer is solved | Top layer corners aligned | Solved cube | Solved cube | Integration Based |
+
 
 
 ## Low Level Test Plan 
