@@ -78,6 +78,10 @@ $(PROJECT_NAME):all
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC))
 
+# Run in dev mode
+dev: all
+	$(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC)) dev 
+
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	$(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC))

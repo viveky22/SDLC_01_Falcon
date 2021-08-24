@@ -16,6 +16,42 @@ The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculp
 |:--------|:--------|:--------|:----------------|:--------|:-----------|
 |[![C/C++ CI](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/c_build.yml)    |    [![cppcheck-action](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/cppcheck-action.yml)   |    [![Dynamic Code Check](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/dynamic.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/dynamic.yml)    |  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8a6f16c953994a68a5c039fa6f2a0c17)](https://www.codacy.com/gh/GEN-AUG/SDLC_01_Falcon/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GEN-AUG/SDLC_01_Falcon&amp;utm_campaign=Badge_Grade) |[![Unit testing](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/unit-test.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/unit-test.yml)|[![Contribution Check - Git Inspector](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/GEN-AUG/SDLC_01_Falcon/actions/workflows/gitinspector.yml)|
 
+## How to Build
+
+### To build and execute:
+```
+make all
+make run
+```
+### To execute in dev mode:
+The colors are given in a string to setRubixCubeAtOnce function
+```
+make dev
+```
+
+### Input format:
+For normal mode input the colors as asked.
+
+For dev mode, edit the string of setRubixCubeAtOnce function as follows:
+
+* The axis is shown below
+* Each piece is considered as a node.
+* There are total of 26 nodes.
+* Input starts from Front Top Left corner(0,0,0).
+* Input ends at the Back Bottom Right corner(2,2,2).
+* i.e (0,0,0), (0,0,1) ...  (0,2,2), (1,0,0) ...  (1,2,2), (2,0, 0)...(2,2,2)  
+* For Front and Back layer nodes( i = 0 and i = 2 ), at each node enter the facing colour, then the up/bottom colour( depending on position of node ), and finally the left/right colour.
+* For middle layer ( i = 1 ), enter the up/bottom colour, then the left/right colour.
+
+![Axis](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/RubixCubeAxis.jpg)
+
+### Documentation
+
+```
+make doc
+```
+
+
 ## Folder Structure
 |Folder|Description|
 |:-----|:----------|
