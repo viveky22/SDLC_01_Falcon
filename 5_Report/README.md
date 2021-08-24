@@ -118,6 +118,7 @@ Basic requirements that are very essential are:
 |LR23|solveAll|uses all the above functions to solve the rubik's cube|Technical|
 
 ### Steps for Execution
+* Clone the repository.
 
 ### BADGES
 
