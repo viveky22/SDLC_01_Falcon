@@ -119,6 +119,9 @@ Basic requirements that are very essential are:
 
 ### Steps for Execution
 * Clone the repository.
+* Open the terminal and change the directory to 3_Implementation (Hint: Use cd command).
+* Use "make all" command to generate the executable.
+* Finally, use "make run" to start the application.
 
 ### BADGES
 
