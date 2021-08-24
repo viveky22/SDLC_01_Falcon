@@ -85,6 +85,7 @@ make doc
 ## Challenges Faced
 
 - Few members of our team were unaware of solving the rubix's cube.
+- Time constraints was hard to manage. But later completed the project in time with effective planning and time management.
 
 
 ## Learning Materials 
