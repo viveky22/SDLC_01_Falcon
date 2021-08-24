@@ -101,6 +101,7 @@ make clean
 |4_TestPlanAndOutput|Documents with test plan and procedure|
 |5_Report|Project Report|
 |6_ImagesAndVideos|Project output and videos|
+|7_Others| Daily stand up report |
 
 ## Contributors List
 |PS No.|Name|Issues raised|Issues resolved| Individual Features |
