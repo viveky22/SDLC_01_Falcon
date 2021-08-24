@@ -29,3 +29,7 @@
 | L_07 | get_index | returns index value for given i,j,k,position values | int | i,j,k value between 0 and 2  | 0 to 2 | -1 | unit test | PASS |
 | L_08 | isNodeValid | checks whether all the Nodes entered by the user is valid or not | boolean | N.A(colors from the user) | 0 and 1 | 0 | unit test | PASS |
 | L_09 | isRubiksCubeValid | checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit | boolean | N.A(colors from the user) | 0 and 1 | 0 | unit test | PASS |
+
+## HIGH LEVEL TESTING RESULTS
+
+![SolveSteps](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/4_TestPlanAndOutput/SolveSteps.png)
