@@ -382,6 +382,11 @@ Order followed in the Layer by layer approach:
 <br>
 <br>
 
+## How to Build
+
+![make](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/3_Implementation/make.gif)
+
+
 
 
 
