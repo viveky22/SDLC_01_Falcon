@@ -6,7 +6,8 @@
 ### Main Image 
 #### Description:
 In this, we are giving Fixed input to the main file and executing the program, where we will be getting the steps to solve the rubik's cube.
-![Fixed input]("https://user-images.githubusercontent.com/43474770/130633902-01e06b73-0363-4785-af82-4b5757a811ac.PNG")
+<img width="960" alt="Input-1" src="https://user-images.githubusercontent.com/80394921/130634430-06f39c03-330a-4455-9e6c-c41885864819.PNG">
+
 
 ### Input Images
 #### Description: 
