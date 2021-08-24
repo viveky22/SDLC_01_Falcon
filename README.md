@@ -72,9 +72,9 @@ make doc
 |6_ImagesAndVideos|Project output and videos|
 
 ## Contributors List
-|PS No.|Name|
-|:-------|:------------|
-|99005677 |Nikhil Nevin Vas |
+|PS No.|Name|Issues raised|Issues resolved|
+|:-------|:------------|-----------|----------|
+|99005677 |Nikhil Nevin Vas |      
 |99005655 |Vinay B C |
 |99005642 |N Namratha Reddy |
 |99005698 |Sampanna T |
