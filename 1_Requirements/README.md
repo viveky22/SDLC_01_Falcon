@@ -42,13 +42,13 @@ Basic requirements that are very essential are:
 ## LOW LEVEL REQUIREMENTS:
 
 ### VALIDATION
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|ID|FUNCTIONS|DESCRIPTION|CATEGORY|
 |:-------|:-------|:-------|:-------|
 |LR01|isNodeValid|checks if all the Nodes entered by the user is valid or not|Technical|
 |LR02|isRubiksCubeValid|checks if the entered colors of rubiks cube have 6 colors where 9 are of same suit|Technical|
 
 ### BASIC OPERATIONS
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|ID|FUNCTIONS|DESCRIPTION|CATEGORY|
 |:-------|:-------|:-------|:-------|
 |LR03|rotateFront|performs rotate operation on the front layer|Technical|
 |LR04|rotateMiddle|performs rotate operation on the middle layer|Technical|
@@ -61,7 +61,7 @@ Basic requirements that are very essential are:
 |LR11|rightVertical|performs vertical motion on the right layer|Technical|
 
 ### ALGORITHMS
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|ID|FUNCTIONS|DESCRIPTION|CATEGORY|
 |:-------|:-------|:-------|:-------|
 |LR12|L|This algorithm is used to solve a corner piece while solving layer1 and also used to solve corner piece at the end|Technical|
 |LR13|layer2|This algorithm is used to solve the second layer of rubik's cube |Technical|
@@ -70,7 +70,7 @@ Basic requirements that are very essential are:
 |LR16|corner|algorithm is used to solve the corner pieces of the top layer|Technical|
 
 ### SOLUTION
-|ID|FUNCTIONS|DESCRIPTION|STATUS|
+|ID|FUNCTIONS|DESCRIPTION|CATEGORY|
 |:-------|:-------|:-------|:-------|
 |LR17|plusBottom|creates a plus mark at the bottom|Technical|
 |LR18|layerFirst|completes the first layer|Technical|
