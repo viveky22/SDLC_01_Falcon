@@ -32,9 +32,9 @@ Basic requirements that are very essential are:
 
 |ID|DESCRIPTION|CATEGORY|STATUS|
 |:-----|:--------------------------------|:----------------|:----------|
-|HR01|User shall be able to provide colors present in the rubik’s cube.|Technical|                       |
-|HR02|User shall be able to solve a Rubik’s cube from any starting condition.|Technical|                  |
-|HR03|User shall be able to see all the steps needed to solve the rubik's cube along with the colors displayed on the console.|Technical|            |
+|HR01|User shall be able to provide colors present in the rubik’s cube.|Technical|Implemented|
+|HR02|User shall be able to solve a Rubik’s cube from any starting condition.|Technical|Implemented|
+|HR03|User shall be able to see all the steps needed to solve the rubik's cube along with the colors displayed on the console.|Technical|Implemented|
 |HR04|User should be able to solve the cube in minimum number of steps.|Technical|Future|
 |HR05|Displaying a message while the program is figuring out the solution would greatly improve the ease of use|Scenario|Future|
 |HR06|Adding an option to view general Rubik's cube algorithms which will increase the uses of solving it easily.|Technical|Future|
