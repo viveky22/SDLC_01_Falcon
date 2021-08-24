@@ -26,7 +26,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005692 |Kausikaa B |  |  |
 | |99005643 |Uttam R |  |  |
 | Day 3|99005677 |Nikhil Nevin Vas |  |  |
-| |99005655 |Vinay B C | Added 1 active uml diagram and 1 flowchar in flowchart section |COMPLETED  |
+| |99005655 |Vinay B C | Added activity uml diagram and 1 flowchar in flowchart section |COMPLETED  |
 | |99005642 |N Namratha Reddy |  |  |
 | |99005698 |Sampanna T | Added images of different stages of solving rubik's cube, added 2 flowcharts in flowchart sections and a component diagram |COMPLETED  |
 | |99005639 |Harshitha M S |  |  |
