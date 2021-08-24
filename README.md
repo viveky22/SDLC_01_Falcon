@@ -76,10 +76,10 @@ make doc
 |:-------|:------------|-----------|----------| ------------ |
 |99005677 |Nikhil Nevin Vas |  |  |  
 |99005655 |Vinay B C |  |  |
-|99005642 |N Namratha Reddy |  | 1 | Design, Implementation |
-|99005698 |Sampanna T |  3| 2 |
+|99005642 |N Namratha Reddy |  |  |
+|99005698 |Sampanna T |  3| 2 | test plans and implementation |
 |99005639 |Harshitha M S |  | 1 | Design, Implementation |
-|99005686 |Hamsa G | 1 |  | Design, Requirements and Documentation
+|99005686 |Hamsa G |  |  |
 |99005675 |Shruthi Suresh   | 1 | 1 |
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
