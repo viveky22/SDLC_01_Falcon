@@ -18,17 +18,9 @@ int main(int argc, char **argv){
         printf("Invalid arguments. Use dev for development.");
         return 0;
     }
-    /*else{
+    else{
         setRubixCube();
     }
-    solveAll();
-    */
-
-   setRubixCubeAtOnce("GREEN RED WHITE GREEN ORANGE GREEN ORANGE WHITE ORANGE YELLOW BLUE BLUE ORANGE YELLOW ORANGE GREEN GREEN RED BLUE WHITE RED YELLOW RED YELLOW WHITE BLUE ORANGE RED GREEN YELLOW WHITE BLUE YELLOW BLUE ORANGE YELLOW WHITE GREEN RED GREEN YELLOW RED BLUE GREEN WHITE ORANGE BLUE ORANGE WHITE WHITE RED YELLOW RED BLUE");
-    
-   printf("\n%d\n",isRubiksCubeValid());
-
-    solveAll();
-    
+    solveAll();  
     return 0;
 }
