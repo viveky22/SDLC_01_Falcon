@@ -80,7 +80,7 @@ make doc
 |99005698 |Sampanna T |  3| 2 |
 |99005639 |Harshitha M S |  |  |
 |99005686 |Hamsa G |  |  |
-|99005675 |Shruthi Suresh   |  | |
+|99005675 |Shruthi Suresh   | 1 | 1 |
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
 |99005692 |Kausikaa B |  |  |
