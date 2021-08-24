@@ -82,6 +82,9 @@ make doc
 |99005692 |Kausikaa B |
 |99005643 |Uttam R |
 
+## Challenges Faced
+
+- Few members of our team were unaware of solving the rubix's cube.
 
 
 ## Learning Materials 
