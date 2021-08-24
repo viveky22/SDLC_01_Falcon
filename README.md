@@ -83,7 +83,7 @@ make doc
 |99005675 |Shruthi Suresh   | 1 | 1 |
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
-|99005692 |Kausikaa B |  |  |
+|99005692 |Kausikaa B | 2 | 1  |Design,implementation and documentation|
 |99005643 |Uttam R |  |  |
 
 ## Challenges Faced
