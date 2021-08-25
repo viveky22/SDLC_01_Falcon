@@ -117,7 +117,7 @@ make clean
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
 |99005692 |Kausikaa B |2  | 1 | Design,Implementation and documentation|
-|99005643 |Uttam R |  |  |
+|99005643 |Uttam R |  |  | Requirements, Implementation and documentation|
 
 ## Challenges Faced
 
