@@ -13,7 +13,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |discussed about choosing project  |  completed|
 | |99005692 |Kausikaa B | Not attended the meet due to vaccination  |-  |
-| |99005643 |Uttam R |  |  |
+| |99005643 |Uttam R | Discussion with the team on choosing the project and team name | COMPLETED |
 | Day 2|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C | Addition of project requirements | COMPLETED  |
 | |99005642 |N Namratha Reddy | Completion of high level and low level requirements | COMPLETED |
@@ -24,7 +24,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram | added some points in requirements | completed |
 | |99005692 |Kausikaa B | addition of reuirements | completed |
-| |99005643 |Uttam R |  |  |
+| |99005643 |Uttam R | Addition of Requirements | COMPLETED |
 | Day 3|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C | Addition activity diagram and flow chart |COMPLETED  |
 | |99005642 |N Namratha Reddy | Addition of diagrams | COMPLETED |
@@ -35,7 +35,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram | addition of flowcharts | completed |
 | |99005692 |Kausikaa B |added 3 flowcharts  | completed |
-| |99005643 |Uttam R |  |  |
+| |99005643 |Uttam R | Added 2 flowcharts | COMPLETED |
 | Day 4|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C | Implemented rubiks_cube.h | COMPLETED |
 | |99005642 |N Namratha Reddy | Implemented operation.c | COMPLETED |
@@ -46,7 +46,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram | implemented main.c and top_plus.c | completed |
 | |99005692 |Kausikaa B | implemented operations.c |  completed |
-| |99005643 |Uttam R |  |  |
+| |99005643 |Uttam R | Implemeneted operations.c and plus_bottom.c | COMPLETED |
 | Day 5|99005677 |Nikhil Nevin Vas |  |  |
 | |99005655 |Vinay B C | Proofreading of report | COMPLETED |
 | |99005642 |N Namratha Reddy | Completion of remaining requirements and design part, solved 1 issue | COMPLETED |
@@ -57,4 +57,4 @@ Day no.|PS No.|Name|Contributions|status
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  documentation| completed |
 | |99005692 |Kausikaa B | solved one issue and documentation | completed |
-| |99005643 |Uttam R |  |  |
+| |99005643 |Uttam R | Updated front page Readme file | COMPLETED |
