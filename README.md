@@ -53,6 +53,7 @@ For dev mode, edit the string of setRubixCubeAtOnce function as follows:
 * For middle layer ( i = 1 ), enter the up/bottom colour, then the left/right colour.
 
 ![Axis](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/RubixCubeAxis.png)
+![Rubiks_Position1](https://user-images.githubusercontent.com/80764759/130725180-de593545-0f7f-49ad-aa42-1783b47da971.gif)
 
 
 
@@ -116,7 +117,7 @@ make clean
 |99005696 |Dibyanshu Gupta |  |  |
 |99005697 |Chandippa Sai Ram |  |  |
 |99005692 |Kausikaa B |2  | 1 | Design,Implementation and documentation|
-|99005643 |Uttam R |  |  | Requirements, Design and architecture|
+|99005643 |Uttam R |  |  |
 
 ## Challenges Faced
 
