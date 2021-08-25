@@ -56,5 +56,5 @@ Day no.|PS No.|Name|Contributions|status
 | |99005675 |Shruthi Suresh |  |  |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  documentation| completed |
-| |99005692 |Kausikaa B | documentation | completed |
+| |99005692 |Kausikaa B | solved one issue and documentation | completed |
 | |99005643 |Uttam R |  |  |
