@@ -22,7 +22,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005686 |Hamsa G |Addition of High level requirements  |COMPLETED  |
 | |99005675 |Shruthi Suresh |  |  |
 | |99005696 |Dibyanshu Gupta |  |  |
-| |99005697 |Chandippa Sai Ram | added some points in requirements | completed |
+| |99005697 |Chandippa Sai Ram | added some points in requirements and worked on design | completed |
 | |99005692 |Kausikaa B | addition of reuirements | completed |
 | |99005643 |Uttam R | Addition of Requirements | COMPLETED |
 | Day 3|99005677 |Nikhil Nevin Vas |  |  |
