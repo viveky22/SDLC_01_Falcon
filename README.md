@@ -115,7 +115,7 @@ make clean
 |99005686 |Hamsa G | 1 | 0 |Design, Implementation and Documentation
 |99005675 |Shruthi Suresh   | 1 | 1 | Design, Implementation and Documentation|
 |99005696 |Dibyanshu Gupta |  |  |
-|99005697 |Chandippa Sai Ram |  |  |
+|99005697 |Chandippa Sai Ram | 0 | 0 |Requirements,Implementation and Documentation  |
 |99005692 |Kausikaa B |2  | 1 | Design,Implementation and documentation|
 |99005643 |Uttam R |  |  | Requirements, Implementation and documentation|
 
