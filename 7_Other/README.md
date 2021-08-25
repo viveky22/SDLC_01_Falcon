@@ -9,7 +9,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005698 |Sampanna T | Discussion with the team on choosing the project|COMPLETED  |
 | |99005639 |Harshitha M S | Team discussion regarding team name and project | COMPLETED |
 | |99005686 |Hamsa G |Discussion with the team regarding choosing the project|COMPLETED |
-| |99005675 |Shruthi Suresh |  |  |
+| |99005675 |Shruthi Suresh | Discussion with the team in choosing the project and creating the repository | COMPLETED |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  |  |
 | |99005692 |Kausikaa B |  |  |
@@ -20,7 +20,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005698 |Sampanna T | Addition of Low level requirement | COMPLETED |
 | |99005639 |Harshitha M S | Addition of requirements and added use case diagram | COMPLETED |
 | |99005686 |Hamsa G |Addition of High level requirements  |COMPLETED  |
-| |99005675 |Shruthi Suresh |  |  |
+| |99005675 |Shruthi Suresh | Addition of low level requirements | COMPLETED |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  |  |
 | |99005692 |Kausikaa B |  |  |
@@ -31,7 +31,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005698 |Sampanna T | Added images of different stages of solving rubik's cube, added 2 flowcharts in flowchart sections and a component diagram |COMPLETED  |
 | |99005639 |Harshitha M S | Addition of seqeuence diagram | COMPLETED |
 | |99005686 |Hamsa G | Added 3 flowcharts in the flowchart section |COMPLETED  |
-| |99005675 |Shruthi Suresh |  |  |
+| |99005675 |Shruthi Suresh | Added 3 flowcharts for the low level requirements | COMPLETED |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  |  |
 | |99005692 |Kausikaa B |  |  |
@@ -42,7 +42,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005698 |Sampanna T | implemented corner_solve.c ,layer_third.c,test_rubiks_cube.c | COMPLETED |
 | |99005639 |Harshitha M S | Implemented initialize.c | COMPLETED |
 | |99005686 |Hamsa G |Implemented get_set_functions.c  |COMPLETED |
-| |99005675 |Shruthi Suresh |  |  |
+| |99005675 |Shruthi Suresh | Implemented rubiks_cube.h and solve_cube.h | COMPLETED |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  |  |
 | |99005692 |Kausikaa B |  |  |
@@ -53,7 +53,7 @@ Day no.|PS No.|Name|Contributions|status
 | |99005698 |Sampanna T | Solved 2 issues, added git inspector image, added daily stand up table| COMPLETED |
 | |99005639 |Harshitha M S | Completion of remaining requirements and design part, solved 1 issue | COMPLETED |
 | |99005686 |Hamsa G |Documentation  |COMPLETED |
-| |99005675 |Shruthi Suresh |  |  |
+| |99005675 |Shruthi Suresh | Completion of design part, added the outputs and explanation, raised and solved1 issue | COMPLETED |
 | |99005696 |Dibyanshu Gupta |  |  |
 | |99005697 |Chandippa Sai Ram |  |  |
 | |99005692 |Kausikaa B |  |  |
