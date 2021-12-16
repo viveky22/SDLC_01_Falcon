@@ -9,7 +9,8 @@ The main objectives of this project are:
 * To perform operations on rubik's cube and display the results.
 
 ## SWOT ANALYSIS
-![SWOT](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/1_Requirements/swot.jpg)
+![SWOT A](https://user-images.githubusercontent.com/71684969/146306342-4082534b-22dd-4b0f-960f-95dc7d6006b1.png)
+
 
 ## ***4 W's and 1 H***
 ## Who
